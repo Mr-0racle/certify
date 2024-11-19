@@ -41,7 +41,7 @@ export default function HeroSection() {
           </p>
 
           <div className="mt-10 flex justify-center gap-4">
-            <RainbowButton>
+            <RainbowButton onClick={() => window.open('https://certifi-dr6z.vercel.app/', '_blank')}>
               Get Started for free
               <ArrowRight className="ml-2 h-4 w-4" />
             </RainbowButton>
@@ -49,6 +49,7 @@ export default function HeroSection() {
               size="lg"
               variant="outline"
               className="rounded-full border-white/10 bg-white/5 text-white backdrop-blur hover:bg-white/10"
+              onClick={() => window.open('https://certify-docs.vercel.app', '_blank')}
             >
               Learn more
             </Button>
